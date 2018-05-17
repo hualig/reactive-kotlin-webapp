@@ -1,9 +1,9 @@
 node {
     def rancherComposeHome = tool 'rancher-compose'
 
-    def rancherServerUrl = 'http://192.168.99.106:8080/'
-    def rancherAccessKey = 'E55D96CC6992FF22F942'
-    def rancherSecretKey = '8ESocUmoiEMu9kPsjSTRorHR7XuYrDoZdXSJr1cG'
+    def rancherServerUrl = 'http://192.168.99.100:8080/'
+    def rancherAccessKey = '46A1A7B2ADA9E7EA4F91'
+    def rancherSecretKey = 'Mk5RoUcZYzYE616LGMccBaCtckBmZ2nqMZ62A5BE'
     def composeFile = 'kotlin-reactive-compose-single-service.yml'
 
     stage ('Checkout') {
